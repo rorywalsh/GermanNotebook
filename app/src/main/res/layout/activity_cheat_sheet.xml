@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/scrollViewSheet"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/dark_blue_background"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/linearLayoutSheet" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Possessive Adjectives"
+                android:background="@drawable/rounded_button"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:id="@+id/possessiveView"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:tag="textViewer"
+                android:onClick="onClick"/>
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:text="My: mein "
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:tag="fieldViewer"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText2"
+                android:text="Your (singular): dein "
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:tag="fieldViewer"
+                android:textStyle="bold"
+                android:inputType="text|textNoSuggestions"
+                android:imeOptions="actionDone" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText3"
+                android:text="His: sein "
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:inputType="text|textNoSuggestions"
+                android:imeOptions="actionDone" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText4"
+                android:text="Her: ihr "
+                android:textSize="16dp"
+                android:tag="fieldViewer"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:inputType="text|textNoSuggestions"
+                android:imeOptions="actionDone" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText5"
+                android:text="Our: unser "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:tag="fieldViewer"
+                android:inputType="text|textNoSuggestions"
+                android:imeOptions="actionDone" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText6"
+                android:text="Your (plural): euer "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:tag="fieldViewer"
+                android:textColor="#ffffff"
+                android:inputType="text|textNoSuggestions"
+                android:imeOptions="actionDone" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText6"
+                android:text="Their: ihr "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:tag="fieldViewer"
+                android:textColor="#ffffff"
+                android:inputType="text|textNoSuggestions"
+                android:imeOptions="actionDone" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText6"
+                android:text="Your (formal): Ihr "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:tag="fieldViewer"
+                android:textColor="#ffffff"
+                android:inputType="text|textNoSuggestions"
+                android:imeOptions="actionDone" />
+
+            <!--
+            Intensifieirs
+            -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Intensifiers"
+                android:background="@drawable/rounded_button"
+                android:textSize="16dp"
+                android:tag="textViewer"
+                android:textColor="#000000"
+                android:id="@+id/intensifiersView"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:onClick="onClick"/>
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:text="sehr: very "
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="nicht sehr: not very "
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:text="zu: too "
+                android:textSize="16dp"
+                android:tag="fieldViewer"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="ganz: quite/completely "
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:text="ziemlich: quite/fairly "
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:tag="fieldViewer"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="ein wenig: a little "
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="ein bisschen: a little "
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="wirklich: really"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="etwas: somewhat"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+
+            <!--
+            Acusative props
+            -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Accusative prepositions"
+                android:background="@drawable/rounded_button"
+                android:textSize="16dp"
+                android:tag="textViewer"
+                android:textColor="#000000"
+                android:id="@+id/accusativePropsView"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:onClick="onClick"/>
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:text="fur: for "
+                android:textSize="16dp"
+                android:tag="fieldViewer"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="um: around/for/at"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="durch: through "
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="gegen: against"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="entlang: along"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="bis: until"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:text="ohne: without"
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:tag="fieldViewer"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="wider: against"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:tag="fieldViewer"
+                android:textSize="16dp"
+                android:text="etwas: somewhat"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

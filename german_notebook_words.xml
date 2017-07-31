@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WORDS>
+	<VALUE word="Gut" meaning="Good" example="Das war gut" type="adj">
+		<PRESENT_TENSE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+		<PAST_SIMPLE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+	</VALUE>
+	<VALUE word="Schnell" meaning="Fast" example="Er geht Schnell" type="adj">
+		<PRESENT_TENSE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+		<PAST_SIMPLE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+	</VALUE>
+	<VALUE word="Gehen" meaning="To go" example="Ich gehe" type="Verb">
+		<PRESENT_TENSE ich="ich gehe" du="du gehst" er_sie_es="er/sie/es geht" wir="wir gehen" ihr="ihr geht" Sie="sie/Sie gehen" />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+	</VALUE>
+	<VALUE word="Fahren" meaning="To go(drive)" example="Ich fahre nach der Stadt mit mein Auto." type="Verb">
+		<PRESENT_TENSE ich="ich fahre" du="du fährst" er_sie_es="er/sie/es fährt" wir="wir fahren" ihr="ihr fährt" Sie="sie fahren" />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+	</VALUE>
+	<VALUE word="Tisch" meaning="table " example="Der Tisch ist groß! " type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+	</VALUE>
+	<VALUE word="muss" meaning="must (have to)" example="ich muss in die stadt gehen" type="Verb">
+		<PRESENT_TENSE ich="ich muss" du="du musst" er_sie_es="er/sie/es muss" wir="wir musen" ihr="ihr musst" Sie="sie/Sie mussen" />
+		<PAST_SIMPLE ich="ich musste" du="du musstest" er_sie_es="er/sie/es musste" wir="wir mussten" ihr="ihr mustet" Sie="sie/Sie mussten" />
+		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+	</VALUE>
+	<VALUE word="Stadt" meaning="city, town" example="Berlin ist eine große Stadt! " type="Noun F.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+	</VALUE>
+</WORDS>

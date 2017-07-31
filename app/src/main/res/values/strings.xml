@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">German Notebook</string>
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+    <string name="action_toggle_sort">Toggle Sort</string>
+    <string name="title_activity_entry_form">EntryForm</string>
+</resources>
