@@ -11,7 +11,7 @@ import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.internal.widget.AdapterViewCompat;
+//import android.support.v7.internal.widget.AdapterViewCompat;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -343,13 +343,16 @@ public class EntryForm extends MainActivity implements AdapterView.OnItemSelecte
     }
     public void writeWordsToXML()
     {
-        File sdcard = Environment.getExternalStorageDirectory();
-        File dir = new File(sdcard.getAbsolutePath() + "/german_notebook/");
-        if(!dir.isDirectory())
-            dir.mkdir();
+//        File sdcard = Environment.getExternalStorageDirectory();
+//        File dir = new File(sdcard.getAbsolutePath() + "/german_notebook/");
+//        if(!dir.isDirectory())
+//            dir.mkdir();
 
-        String fileName = "german_notebook_words.xml";
-        File file = new File(dir, fileName);
+        File dir = getFilesDir();
+//
+//        String fileName = "german_notebook_words.xml";
+//        File file = new File(dir, fileName);
+        File file = new File(dir , "german_notebook_words.xml");
         if(!file.exists())
             Toast.makeText(EntryForm.this, "XML File does not exist", Toast.LENGTH_SHORT).show();
 

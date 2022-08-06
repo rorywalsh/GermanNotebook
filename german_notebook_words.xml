@@ -1,39 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <WORDS>
-	<VALUE word="Gut" meaning="Good" example="Das war gut" type="adj">
-		<PRESENT_TENSE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
-		<PAST_SIMPLE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
-		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
-	</VALUE>
-	<VALUE word="Schnell" meaning="Fast" example="Er geht Schnell" type="adj">
-		<PRESENT_TENSE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
-		<PAST_SIMPLE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
-		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
-	</VALUE>
-	<VALUE word="Gehen" meaning="To go" example="Ich gehe" type="Verb">
-		<PRESENT_TENSE ich="ich gehe" du="du gehst" er_sie_es="er/sie/es geht" wir="wir gehen" ihr="ihr geht" Sie="sie/Sie gehen" />
-		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
-		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
-	</VALUE>
-	<VALUE word="Fahren" meaning="To go(drive)" example="Ich fahre nach der Stadt mit mein Auto." type="Verb">
-		<PRESENT_TENSE ich="ich fahre" du="du fährst" er_sie_es="er/sie/es fährt" wir="wir fahren" ihr="ihr fährt" Sie="sie fahren" />
-		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
-		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
-	</VALUE>
-	<VALUE word="Tisch" meaning="table " example="Der Tisch ist groß! " type="Noun M.">
+	<VALUE word="abenteuer" meaning="adventure" example="es war ein abenteuer" type="Noun N.">
 		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
 		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
-		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
 	</VALUE>
-	<VALUE word="muss" meaning="must (have to)" example="ich muss in die stadt gehen" type="Verb">
-		<PRESENT_TENSE ich="ich muss" du="du musst" er_sie_es="er/sie/es muss" wir="wir musen" ihr="ihr musst" Sie="sie/Sie mussen" />
-		<PAST_SIMPLE ich="ich musste" du="du musstest" er_sie_es="er/sie/es musste" wir="wir mussten" ihr="ihr mustet" Sie="sie/Sie mussten" />
-		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
-	</VALUE>
-	<VALUE word="Stadt" meaning="city, town" example="Berlin ist eine große Stadt! " type="Noun F.">
+	<VALUE word="einfluss" meaning="influence" example="ich habe kein einfluss" type="Noun M.">
 		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
 		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
-		<FUTURE ich="" du="" er_sie_es="" wir="" ihr="" Sie="" />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="erleben" meaning="experience (to)" example="es war ein gut erleben" type="Verb">
+		<PRESENT_TENSE ich="ich erlebe" du="du erlebst" er_sie_es="er/sie/es erlebt" wir="wir erleben" ihr="ihr erlebt" Sie="sie/Sie erleben" />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="gerÃ¤usch" meaning="noise" example="das war ein lautes gerÃ¤usch" type="Noun N.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="leise" meaning="quiet" example="die musik war leise" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="erlebnis" meaning="experience" example="das war ein erlebnis" type="Noun N.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="Ab-artig" meaning="unreal " example="es war Avartig gut|schlect" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="tauchen" meaning="dive" example="ich tauche" type="Verb">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="wach" meaning="awake" example="ich bin wach" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="regen" meaning="rain" example="" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="regnet" meaning="rain" example="es regnet" type="Verb">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="kÃ¼rbis" meaning="pumpkin" example="du bist ein kÃ¼rbis" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="beamte" meaning="public servant" example="du bist ein beamte" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="gÃ¤hnen" meaning="yawn" example="ich gÄ hen wenn ich mude" type="Verb">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="was ist vorbei ist vorbei" meaning="what's past is past" example="" type="Phrase">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="einbrecher" meaning="burglar" example="" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="fleissig" meaning="hard-working" example="Moe ist fleissig" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="ich stimme zu" meaning="I agree" example="" type="Phrase">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="ich stimme nicht zu" meaning="I don't agree" example="" type="Phrase">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="da rein" meaning="in there" example="in " type="Phrase">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="viel betrieb" meaning="very busy (with people)" example="es war viel betrieb" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="Regel" meaning="rule" example="das ist die Regel" type="Noun F.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="Werkzeug" meaning="tool" example="" type="Noun N.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="Gabe" meaning="the gift" example="du hast die gabe" type="Noun F.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="beeindruckend" meaning="impressive" example="ich bin beeindruckend" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="schaukeln" meaning="swing" example="ich schaukele" type="Verb">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="schucken" meaning="push" example="ich schucke dich" type="Verb">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="benutzen" meaning="use" example="ich benutze" type="Verb">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="ersatz" meaning="replacement" example="ersatz Zug" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="ubel" meaning="extreme (bad, sick, ...)" example="es ist ubel cool" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="undankbar" meaning="ungrateful" example="du bist ist undankbar" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="sorgen" meaning="worry" example="ich habe mir sorgen gemacht" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="sehenswert" meaning="worth looking at" example="es ist sehenswert" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="unbedingt" meaning="definitely" example="" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="merken" meaning="realise" example="ich gabe gemerkt" type="Verb">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="Tust du (insert verb) " meaning="are you ..." example="" type="Phrase">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="was ist der unterschied zwischen" meaning="what's the difference" example="" type="Phrase">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="offensichtlich" meaning="obviously" example="es war offensichtlich guy" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="herrlich" meaning="brilliant" example="es war ganz herrlich" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="Word" meaning="" example="" type="Noun M.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="meiste" meaning="most" example="wer hat die meistens?" type="Adj.">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
+	</VALUE>
+	<VALUE word="das ist so wahr" meaning="that's so true" example="" type="Phrase">
+		<PRESENT_TENSE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<PAST_SIMPLE ich="ich " du="du " er_sie_es="er/sie/es " wir="wir " ihr="ihr " Sie="sie/Sie " />
+		<FUTURE ich="ich wirde" du="du wirst" er_sie_es="er/sie/es wird" wir="wir werden" ihr="ihr werdet" Sie="sie/Sie werden" />
 	</VALUE>
 </WORDS>
